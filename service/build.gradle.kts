@@ -7,7 +7,7 @@ allOpen{
 dependencies{
     implementation(project(":domain"))
     implementation(project(":db-main"))
-    implementation(project(":configuration"))
-    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework:spring-web")
+    implementation("org.springframework:spring-webmvc")
     implementation("org.json:json:20231013")
 }

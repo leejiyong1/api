@@ -10,6 +10,5 @@ dependencies{
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation(project(":domain"))
 	implementation(project(":service"))
-	implementation(project(":db-main"))
 }
 
